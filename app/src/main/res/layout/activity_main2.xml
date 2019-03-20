@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/aaa"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Achat"
+        android:textSize="50sp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/bbb"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="$Prix"
+        android:textSize="50sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="ADD"
+        android:textSize="50sp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
